@@ -28,17 +28,17 @@ public class MainMenuScript : MonoBehaviour
         HighScore.text = "" + HScore; //Wyświetlanie Highscore;
     }
 
-    public void ExitGame()
+    public void exitGame()
     {
         Application.Quit(); //Wyjście z aplikacji
     }
 
-    public void LoadLeveL()
+    public void loadLevel()
     {
         SceneManager.LoadScene(1); //Załadowanie następnej sceny
     }
 
-    public void musicsettings() //Ustawienia Audio
+    public void musicSettings() //Ustawienia Audio
     {
         if (music == 0)
         {
